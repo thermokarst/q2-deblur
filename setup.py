@@ -15,6 +15,7 @@ setup(
     name="q2-deblur",
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
+    license='BSD-3-Clause',
     packages=find_packages(),
     install_requires=['qiime2 == 2017.3.*', 'pandas', 'q2-types == 2017.3.*',
                       'deblur >= 1.0.1', 'q2templates == 2017.3.*'],
