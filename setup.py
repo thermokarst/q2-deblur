@@ -29,5 +29,5 @@ setup(
     package_data={
         "q2_deblur": ["assets/index.html"]
     },
-    zip_safe=True,
+    zip_safe=False,
 )
